@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://thumbs.gfycat.com/DifficultOpulentBlackfly-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  height: 600px;
+  width: 70%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 250px;
+  background-color: rgba(0,0,0,0.60);
+}
+h1, span, label, p, button, input{
+  color: white;
+  float: left;
+}
+label{
+  font-size: 25px;
+  margin-left: 470px;
+}
+input{
+  color: black;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(250,179,36);
+}
+
+button{
+  background: rgb(250,179,36);
+  padding: 3px;
+}
+h1{
+  font-size: 50px;
+  margin-left: 500px;
+}
+button{
+  margin-top: 50px;
+  margin-left: -165px;
+  font-size: 15px;
+  padding: 3px;
+}
+p{
+  font-size: 27px;
+  float: left;
+  margin-left: 430px;
+  margin-top: 50px;
+
+}
+.emailStyle{
+  height: 80px;
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.passwordStyle{
+  height: 120px;
+  width: 100%;
+  float: left;
+  border-bottom: 2px solid white;
+}

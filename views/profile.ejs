@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <title>Magic Binder</title>
+  <link rel="stylesheet" href="styleProfile.css">
+</head>
+<link rel="icon"
+    type="image/png"
+    href="https://static.wixstatic.com/media/6d5f83_1c4b31e3f57a46f793150aa5b348a54d.png/v1/fill/w_339,h_339,al_c,usm_0.66_1.00_0.01/6d5f83_1c4b31e3f57a46f793150aa5b348a54d.png">
+<body>
+  <header>
+    <h4> <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Magicthegathering-logo.svg/1280px-Magicthegathering-logo.svg.png" alt="Magic The Gathering Logo"></h2>
+    <div class="page-header text-center">
+      <h1>Card Database</h1>
+
+      <a class="well" href="/logout">Logout</a>
+    </div>
+        <!-- LOCAL INFORMATION -->
+    <div>
+      <% if (user.local.email) { %>
+        <a class="well" href="/unlink/local" class="btn btn-default">Unlink</a>
+        <% } else { %>
+        <a href="/connect/local" class="btn btn-default">Connect Local</a>
+      <% } %>
+    </div>
+    </header>
+    <section>
+      <section class="cardSearch">
+        <form class="" action="index.html" method="post">
+          <p>Search For A Card By Name</p>
+          <input id="nameCard" type="text" name="" value="" placeholder="Card Name">
+          <button id="cardSearch" type="submit" name="button">Submit</button>
+        </form>
+        <div class="lookMagic">
+          <button id="cardMinus" type="button" name="button">Left</button>
+          <img id="magic" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          <button id="saveCard" type="submit" name="button">Save</button>
+          <button id="cardPlus" type="button" name="button">Right</button>
+          <span id="current"></span>
+          <span id="maxCardCount"></span>
+        </div>
+        <div>
+            <a href="owned"><button type="button" id="binderButton">Click Me To See Your collection</button></a>
+        </div>
+      </section>
+        <ul>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+          <li>
+            <img class="card" src="https://i.imgur.com/P7qYTcI.png" alt="">
+          </li>
+        </ul>
+        <!-- <button id="alotCard" type="button" name="button">More Cards</button> -->
+      </section>
+    <script src="profile.js"></script>
+  </body>
+</html>
